@@ -1,0 +1,136 @@
+
+.headings h1{
+    
+   
+    
+    text-align: center;
+    
+    
+
+}
+
+.text_field input{
+
+    
+    width:80%;
+    max-width:500px;
+    height:30px;
+    
+    text-align: center;
+    border-radius: 20px;
+    border:3px solid black;
+    margin-left:10px;
+    margin-right: 10px;  
+}
+
+
+
+
+
+.submit input{
+    text-align:center;
+    position:relative;
+    width:100px;
+    height:25px;
+    
+    border-radius:10px;
+    border:2px solid black;
+    
+
+}
+
+
+
+
+
+.clear_page input{
+    text-align:center;
+    position:relative;
+    width:100px;
+    height:25px;
+    
+    
+    border-radius: 10px;
+    border:2px solid black;
+
+}
+
+
+
+
+
+
+.full_body{
+    
+    width: 80%;
+    max-width: 800px;
+    background-color: transparent;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(251, 251, 251, 0.7);
+
+}
+
+.output_container{
+    color:white;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.output_container pre{
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+}
+
+
+body{
+         
+       /* -webkit-animation: colorchange 8s infinite;
+        animation: colorchange 8s infinite;*/
+        
+
+        background-image:url(/static/25552_cleanup.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+        
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        overflow: scroll;
+        
+}    
+      @-webkit-keyframes colorchange {
+        0% {
+            background: aquamarine;
+            }
+        50% {
+          background:mediumpurple;
+            }
+        
+        100% {
+            background: aquamarine;
+            }
+    }
+      
+      @keyframes colorchange {
+        0% {
+            background: mediumpurple;
+            }
+        50% {
+            background: aquamarine;
+            }
+        100% {
+            background: mediumpurple;
+            }
+}
+
+
+
+
+  

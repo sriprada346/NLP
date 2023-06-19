@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+
+   
+    <div class="full_body">
+        
+        <form action="/hub" method="post">
+           
+            <div class="text_field"> 
+                <input type="text" name="hello" placeholder="Enter your sentence" required autocomplete="off">
+            
+            </div>
+            <br><br>
+            <div>
+                <div class="submit">
+
+                    <input type="submit" name="submit" value="SUBMIT" >
+                
+                </div>
+                <br>
+                
+        </form>    
+        <form action="/" method="POST">
+                <div class="submit">
+                    <input type="submit" value="RESET" >
+                </div>
+                <div class="output_container">
+                    {% if output %}
+                    <h2>Output:</h2>
+                    <pre id="output">{{ output }}</pre>
+                    {% endif %}
+                </div>
+        </form>
+            </div>
+                
+            <div class="">
+                
+            </div>    
+                
+    </div>    
+    
+    
+</body>
+</html>
+
+
+<!--style="display:flex;align-items: center;justify-content: center;"-->

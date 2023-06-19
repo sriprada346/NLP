@@ -1,0 +1,70 @@
+#Empty lists
+pronoun_lst=[]
+adjuctive_lst=[]
+adverb_lst=[]
+verb_lst=[]
+interjection_lst=[]
+conjunction_lst=[]
+
+#opening and reading files
+pronoun_file=open(r'pronouns.txt','r')
+pronouns=pronoun_file.read()
+
+adjective_file=open(r'adjectives.txt','r')
+adjectives=adjective_file.read()
+
+adjective_file=open(r'adverb.txt','r')
+adverbs=adjective_file.read()
+
+verb_file=open(r'verbs.txt','r')
+verbs=verb_file.read()
+
+conjunction_file=open(r'conjunctions.txt','r')
+conjunctions=conjunction_file.read()
+
+interjection_file=open(r'interjection.txt','r')
+interjection=interjection_file.read()
+
+adverb_file=open(r'adverb.txt','r')
+adverbs=adverb_file.read()
+
+#Logic
+sentence=input("Enter your sentence:")
+sentence=sentence.lower()
+for i in sentence.split():
+    if i in pronouns.split('\n'):
+        if i not in pronoun_lst:
+            pronoun_lst+=[i]
+    elif i in adjectives.split('\n'):
+        if i not in adjuctive_lst:
+            adjuctive_lst+=[i]
+    elif i in adverbs.split('\n'):
+        if i not in adverb_lst:
+            adverb_lst+=[i]
+    elif i in verbs.split('\n'):
+        if i not in verb_lst:
+            verb_lst+=[i]
+    elif i in conjunctions.split(','):
+        if i not in conjunction_lst:
+            conjunction_lst+=[i]
+    elif i in interjection.split('\n'):
+        if i not in interjection_lst:
+            interjection_lst+=[i]
+print("Pronouns:",end=' ')
+print(', '.join(pronoun_lst))
+print("adjectives:",end=' ')
+print(', '.join(adjuctive_lst))
+print("adverbs:",end=' ')
+print(', '.join(adverb_lst))
+print("verbs:",end=' ')
+print(', '.join(verb_lst))
+print("conjunctions:",end=' ')
+print(', '.join(conjunction_lst))
+print("interjection:",end=' ')
+print(', '.join(interjection_lst))
+adverb_file.close()
+interjection_file.close()
+conjunction_file.close()
+verb_file.close()
+adjective_file.close()
+pronoun_file.close()

@@ -1,0 +1,69 @@
+on
+under
+over
+near
+by
+at
+from
+to
+with
+about
+above
+across
+after
+against
+along
+among
+around
+at
+because of
+before
+behind
+below
+beneath
+beside
+besides
+between
+beyond
+by
+concerning
+despite
+down
+during
+except
+excepting
+for
+from
+in
+in front of
+inside
+in spite of
+instead of
+into
+of
+on
+onto
+up
+until
+with
+up to,
+like,
+near,
+off,
+out,
+outside,
+over,
+past,
+regarding,
+since,
+through,
+throughout,
+to,
+toward,
+under,
+underneath,
+upon,
+within,
+without,
+with regard to,
+with respect to,
